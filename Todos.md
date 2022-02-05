@@ -3,7 +3,7 @@
 > Numbers are showing the priority of the todo-item.
 
 - [ ] Create a switch to toggle between light and dark theme (use moon and sun icons) (Muhammet)
-- [ ] Write texts 'how to play' rules (Muhammet)
+- [ ] WIP: Write texts 'how to play' rules (Muhammet)
 - [ ] Main page: basic layout design (Sara)
 - [ ] Game page: basic layout design (Sara)
 - [ ] Rules page: basic layout design (Sara)
