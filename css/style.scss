@@ -1,5 +1,28 @@
+$sara-black: #160c0f;
+$sara-white: #fff9ef;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: $sara-black !important;
+}
+
+#playBtn {
+  margin-top: 35%;
+  padding: 0 2.5rem 0.25rem 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  border-radius: 1.25rem;
+  border: 2px solid;
+  color: $sara-white;
+
+  &:hover {
+    color: $sara-black;
+    background-color: $sara-white;
+  }
 }

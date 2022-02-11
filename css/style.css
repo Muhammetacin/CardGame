@@ -4,4 +4,24 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  background-color: #160c0f !important;
+}
+
+#playBtn {
+  margin-top: 35%;
+  padding: 0 2.5rem 0.25rem 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  border-radius: 1.25rem;
+  border: 2px solid;
+  color: #fff9ef;
+}
+
+#playBtn:hover {
+  color: #160c0f;
+  background-color: #fff9ef;
+}
 /*# sourceMappingURL=style.css.map */
