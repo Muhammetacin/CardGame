@@ -10,8 +10,11 @@ body {
   background-color: #160c0f !important;
 }
 
+.title h1 {
+  color: #fff9ef;
+}
+
 #playBtn {
-  margin-top: 35%;
   padding: 0 2.5rem 0.25rem 2.5rem;
   font-size: 2.5rem;
   font-weight: 600;
@@ -23,5 +26,48 @@ body {
 #playBtn:hover {
   color: #160c0f;
   background-color: #fff9ef;
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media only screen and (max-width: 425px) {
+  .title h1 {
+    padding-top: 10%;
+    font-size: 3rem;
+  }
+  #playBtn {
+    font-size: 1.5rem;
+  }
+}
+
+/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    padding-top: 10%;
+    font-size: 3rem;
+  }
+  #playBtn {
+    font-size: 1.5rem;
+  }
+}
+
+/*Tablets [601px -> 1200px]*/
+@media only screen and (min-width: 600px) {
+  .title h1 {
+    padding-top: 5%;
+    font-size: 4rem;
+  }
+  #playBtn {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .title h1 {
+    padding-top: 3%;
+    font-size: 5rem;
+  }
+  #playBtn {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
