@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Superior Title";
-  src: url("../fonts/Superior Title - Medium.otf");
+  src: url("../fonts/SuperiorTitleMedium.otf");
 }
 
 @font-face {
   font-family: "Nimbus Sans";
-  src: url("../fonts/NimbusSanL-Reg.otf");
+  src: url("../fonts/NimbusSans.otf");
 }
 
 * {
