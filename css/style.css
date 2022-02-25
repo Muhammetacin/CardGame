@@ -18,6 +18,7 @@
 body {
   height: 100vh;
   background-color: #160c0f !important;
+  font-family: "Nimbus Sans", sans-serif;
 }
 
 .title h1 {
