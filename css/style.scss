@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Superior Title";
+  src: url("../fonts/Superior\ Title\ -\ Medium.otf");
+}
+
+@font-face {
+  font-family: "Nimbus Sans";
+  src: url("../fonts/NimbusSanL-Reg.otf");
+}
+
 $sara-black: #160c0f;
 $sara-white: #fff9ef;
 
@@ -15,6 +25,7 @@ body {
 .title {
   h1 {
     color: $sara-white;
+    font-family: "Superior Title", sans-serif;
   }
 }
 
